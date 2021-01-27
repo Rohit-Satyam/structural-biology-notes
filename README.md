@@ -1,4 +1,9 @@
 # structural-biology-notes
+## Structure prediction 
+[Robetta](https://robetta.bakerlab.org/) can model dimer/oligomer.
+
+Model Archive: Modelled structure repository: https://www.modelarchive.org/
+ QC: Molprobity, Qmean (https://swissmodel.expasy.org/qmean/) (Use QMEANDisCo for most of the protein and QmeanBrane for membrane protein)
 
 Brownie points
 1. Autodock vina is available as a conda package [here](https://anaconda.org/bioconda/autodock-vina). Post installation use vina or vina_split
