@@ -1,9 +1,10 @@
 # structural-biology-notes
 ## Structure prediction 
-[Robetta](https://robetta.bakerlab.org/) can model dimer/oligomer.
+[Robetta](https://robetta.bakerlab.org/) can model dimer/oligomer. Not suitable for peptides.
 
 Model Archive: Modelled structure repository: https://www.modelarchive.org/
- QC: Molprobity, Qmean (https://swissmodel.expasy.org/qmean/) (Use QMEANDisCo for most of the protein and QmeanBrane for membrane protein)
+
+QC: Molprobity, Qmean (https://swissmodel.expasy.org/qmean/) (Use QMEANDisCo for most of the protein and QmeanBrane for membrane protein)
 
 Brownie points
 1. Autodock vina is available as a conda package [here](https://anaconda.org/bioconda/autodock-vina). Post installation use vina or vina_split
@@ -17,6 +18,10 @@ Brownie points
 > does that internally), and some other implementation tricks, such as
 > precalculating the interaction between every atom type pair at every
 > distance. The source code, the scoring funcion and the actual algorithms used are brand new, so it's more correct to think of AutoDock Vina as a new "generation" rather than "version" of AutoDock.
+
+## Hydrated Docking is docking in water: 
+
+Nature Protocol: Section F Docking with explicit waters: [Source1](https://www.nature.com/articles/nprot.2016.051), [Source 2](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172743), [Source 3](https://www.mdpi.com/1420-3049/21/11/1604/htm), [source 4](https://www.ccdc.cam.ac.uk/support-and-resources/ccdcresources/2fb0c5283e924c23a6914826c4470181.pdf), [source 5](http://autodock.scripps.edu/resources/autodock-hydrated-docking)
 
 **How big should the search space be?**
 
