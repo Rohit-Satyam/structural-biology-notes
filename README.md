@@ -6,6 +6,8 @@ Model Archive: Modelled structure repository: https://www.modelarchive.org/
 
 QC: Molprobity, Qmean (https://swissmodel.expasy.org/qmean/) (Use QMEANDisCo for most of the protein and QmeanBrane for membrane protein)
 
+Check Structures: Check structures for structure anomalies using [MDWeb](http://mmb.irbbarcelona.org/MDWeb/index.php)
+
 Brownie points
 1. Autodock vina is available as a conda package [here](https://anaconda.org/bioconda/autodock-vina). Post installation use vina or vina_split
 2. Important points from [manual of autodock](http://vina.scripps.edu/manual.html): 
