@@ -6,7 +6,17 @@ Model Archive: Modelled structure repository: https://www.modelarchive.org/
 
 QC: Molprobity, Qmean (https://swissmodel.expasy.org/qmean/) (Use QMEANDisCo for most of the protein and QmeanBrane for membrane protein)
 
-Check Structures: Check structures for structure anomalies using [MDWeb](http://mmb.irbbarcelona.org/MDWeb/index.php)
+Basic Docking Steps
+1. Check Structure Completness: Check structures for structure anomalies using [MDWeb](http://mmb.irbbarcelona.org/MDWeb/index.php). If structure has gaps, try looking into PDBRedo [server](https://pdb-redo.eu/)
+2. Install the following in linux:
+Read more on [prepare_ligand.py](http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-ligand-file-for-autodock4) and [prepare_receptor4.py](http://autodock.scripps.edu/faqs-help/how-to/how-to-prepare-a-receptor-file-for-autodock4)
+```bash
+conda install -c bioconda mgltools
+## We can now use some mgltools python script to prepare ligands and pdb files: prepare_ligand4.py and prepare_receptor4.py
+prepare_receptor4.py -r 2vf5.pdb -A 'checkhydrogens'
+
+```
+3. 
 
 Brownie points
 1. Autodock vina is available as a conda package [here](https://anaconda.org/bioconda/autodock-vina). Post installation use vina or vina_split
