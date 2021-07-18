@@ -13,7 +13,7 @@ Read more on [prepare_ligand.py](http://autodock.scripps.edu/faqs-help/how-to/ho
 ```bash
 conda install -c bioconda mgltools
 ## We can now use some mgltools python script to prepare ligands and pdb files: prepare_ligand4.py and prepare_receptor4.py
-prepare_receptor4.py -r 2vf5.pdb -A 'checkhydrogens'
+prepare_receptor4.py -r 2vf5.pdb -A 'checkhydrogens' -v
 
 ```
 3. 
