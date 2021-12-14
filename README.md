@@ -73,3 +73,4 @@ For consensus docking use these tools: AutoDock, ICM, LeDock, rDock, AutoDock Vi
 2. [Machine Learning Consensus Scoring Improves Performance Across Targets in Structure-Based Virtual Screening](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5872818/)
 3. [Structure-Based Virtual Screening: From Classical to Artificial Intelligence](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7200080/#:~:text=4-Structure-Based%20Virtual%20Screening,target%20to%20form%20a%20complex.)
 4. [1001 Ways to run AutoDock Vina for virtual screening](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801993/)
+5. Database of Binding pockets for proteins structure in PDB: [scPDB](http://bioinfo-pharma.u-strasbg.fr/scPDB/)
