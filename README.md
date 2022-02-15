@@ -1,6 +1,7 @@
 # structural-biology-notes
 ## Structure prediction 
 [Robetta](https://robetta.bakerlab.org/) can model dimer/oligomer. Not suitable for peptides.
+Tried this new tool [gnina](https://github.com/gnina/gnina) for docking and pose scoring using CNN. Use the precompiled binary because compiling it manually results in an OpenBabel error.
 
 Model Archive: Modelled structure repository: https://www.modelarchive.org/
 
